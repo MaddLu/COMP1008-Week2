@@ -16,7 +16,7 @@ public class JavaWeek2 {
      */
     public static void main(String[] args) 
     {
-        System.out.print("Hello GitHub world");
+        GameOfWar theGame = new GameOfWar();
+        theGame.playGame();
     }
-    
 }
